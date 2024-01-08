@@ -4,7 +4,6 @@
   outline: none;
   border: 0px;
   font-family: open sans-serif;
-  
 }
 
 html {
@@ -38,13 +37,11 @@ html {
   text-decoration: none;
   font-weight: 800;
   margin-right: 20px;
-
   transition: color 0.3s linear;
 }
 
 .nav-item:hover{
   color: #e33d3d;
-
 }
 
 .phone{
@@ -58,7 +55,6 @@ html {
   font-size: 16px;
   font-weight: 500;
   font-style: bold;
-  
   transition: color 0.3s linear;
 }
 
@@ -95,7 +91,6 @@ html {
   padding: 10px 15px;
   margin-left: 20px;
   border-radius: 5px;
-
   transition: color 0.3s linear;
 }
 
@@ -197,7 +192,7 @@ html {
   position: relative;
   margin: auto;
   border-collapse: separate;
-	border: 15px double #cdcbcb;
+  border: 15px double #cdcbcb;
   border-radius: 10px;
   box-shadow: 8px 8px 14px #cdcbcb;
 }
@@ -206,33 +201,31 @@ html {
   text-align: center;
   position: relative;
   font-size: 20px;
-	padding: 15px;
+  padding: 15px;
   background-color: #e66c6c;
-	border: 2px solid #cdcbcb;
-  
+  border: 2px solid #cdcbcb;
 }
 
 .table td {
   text-align: center;
   position: relative;
   font-size: 18px;
-	padding: 15px;
-	border: 2px solid #cdcbcb;
+  padding: 15px;
+  border: 2px solid #cdcbcb;
 }
 
 .table thead tr th:first-child {
-	border-radius: 8px 0 0 8px;
+  border-radius: 8px 0 0 8px;
 }
 .table thead tr th:last-child {
-	border-radius: 0 8px 8px 0;
+  border-radius: 0 8px 8px 0;
 }
 .table tbody tr td:first-child {
-	border-radius: 8px 0 0 8px;
+  border-radius: 8px 0 0 8px;
 }
 .table tbody tr td:last-child {
-	border-radius: 0 8px 8px 0;
+  border-radius: 0 8px 8px 0;
 }
-
 
 .abon ul{
   display: flex;
@@ -242,6 +235,7 @@ html {
   padding: 0;
   list-style: none;
 }
+
 .abon li{
   width: calc(30% - 20px);
   height: 150px;
@@ -249,17 +243,18 @@ html {
   margin: 10px;
   padding-top: 15px;
   text-align: center;
-
   border-collapse: separate;
-	border: 8px solid #e66c6c;
+  border: 8px solid #e66c6c;
   border-radius: 8px;
   box-shadow: 8px 8px 14px #e66c6c;
   background-color: #cdcbcb;
 }
+
 .time{
   font-size: 25px;
   font-weight: bold;
 }
+
 .abon-time{
   font-family: open sans-serif;
   font-size: 20px;
@@ -273,23 +268,22 @@ html {
 .contact{
   position: relative;
   display: grid;
-
   height: 420px;
   width: 50%;
-
   padding-top: 100px;
   padding-right: 30px;
-  
   border-right: 2px solid black;
 }
+
 .contact ul{
   list-style-type: none;
-
 }
+
 .contact li{
   bottom: 8px;
   margin-left: 200px;
 }
+
 .contact img{
   width: 20px;
   height: 20px; 
@@ -302,6 +296,7 @@ html {
   color: black;
   font-weight: bold;
 }
+
 .contact li a{
   font-family: open sans-serif;
   font-size: 18px;
@@ -310,9 +305,11 @@ html {
   text-decoration: none;
   transition: color 0.3 linear;
 }
+
 .contact li a:hover{ 
   color: #e33d3d
 }
+
 .map{
   position: relative;
   width: 50%;
@@ -335,6 +332,7 @@ html {
   padding-top: 1px;
   padding-bottom: 1px;
 }
+
 .footer p{
   font-family: open sans-serif;
   font-size: 14px;
